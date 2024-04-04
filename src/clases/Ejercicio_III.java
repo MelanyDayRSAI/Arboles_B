@@ -18,7 +18,7 @@ public class Ejercicio_III {
 
             switch (opcion) {
                 case 1:
-                    System.out.print("Ingrese un número a insertar: ");
+                    System.out.print("Ingrese un numero a insertar: ");
                     int datoInsertar = scanner.nextInt();
                     arbol.insertar(datoInsertar);
                     arbol.muestraArbol();

@@ -18,19 +18,19 @@ public class Ejercicio_III {
 
             switch (opcion) {
                 case 1:
-                    System.out.print("Ingrese un número a insertar: ");
+                    System.out.print("Ingrese un numero a insertar: ");
                     int datoInsertar = scanner.nextInt();
                     arbol.insertar(datoInsertar);
                     arbol.muestraArbol();
                     break;
                 case 2:
-                    System.out.print("Ingrese un número a eliminar: ");
+                    System.out.print("Ingrese un numero a eliminar: ");
                     int datoEliminar = scanner.nextInt();
                     arbol.eliminar(datoEliminar);
                     arbol.muestraArbol();
                     break;
                 case 3:
-                    System.out.print("Ingrese un número a buscar: ");
+                    System.out.print("Ingrese un numero a buscar: ");
                     int datoBuscar = scanner.nextInt();
                     arbol.buscarNodoPorClave(datoBuscar);
                     break;
@@ -39,17 +39,17 @@ public class Ejercicio_III {
                     scanner.close();
                     return;
                 default:
-                    System.out.println("Opción no válida. Ingrese un número del 1 al 4.");
+                    System.out.println("Opción no válida. Ingrese un numero del 1 al 4.");
             }
         }
 	}
 
 	private static void mostrarMenu() {
-        System.out.println("\n--- Menú Árbol B ---");
-        System.out.println("1. Insertar un número");
-        System.out.println("2. Eliminar un número");
-        System.out.println("3. Buscar un número");
+        System.out.println("\n--- Menu Arbol B ---");
+        System.out.println("1. Insertar un numero");
+        System.out.println("2. Eliminar un numero");
+        System.out.println("3. Buscar un numero");
         System.out.println("4. Salir");
-        System.out.print("Seleccione una opción: ");
+        System.out.print("Seleccione una opcion: ");
     }
 }
